@@ -1,5 +1,5 @@
 import * as http from 'http'
-import { setupWSConnection } from 'y-websocket/bin/utils.js'
+import { setupWSConnection } from 'y-websocket'
 import WebSocket, { WebSocketServer } from 'ws'
 
 const port = process.env.PORT || 1234
